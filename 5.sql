@@ -1,0 +1,1 @@
+SELECT BIllingCountry FROM Invoice GROUP BY BillingCountry
