@@ -1,0 +1,1 @@
+SELECT CustomerID as "ID", FirstName AS "First Name", LastName AS "Last Name", Country FROM (SELECT * FROM Customer WHERE Country IS  "Brazil")
