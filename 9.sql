@@ -1,0 +1,1 @@
+SELECT (SELECT COUNT (InvoiceId) || ' Invoices, Total= $' || SUM(Total) FROM Invoice WHERE InvoiceDate LIKE '2009%') AS "2009", (SELECT COUNT (InvoiceId) || ' Invoices, Total= $' || SUM(Total) FROM Invoice WHERE InvoiceDate LIKE '2011%') AS "2011"
