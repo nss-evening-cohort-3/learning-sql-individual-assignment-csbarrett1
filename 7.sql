@@ -1,0 +1,1 @@
+SELECT InvoiceId AS "Invoice ID", Employee.FirstName || ' ' || Employee.LastName AS "Agent Name" FROM Invoice JOIN Employee JOIN Customer ON Invoice.CustomerId == Customer.CustomerId ORDER BY Employee.LastName
