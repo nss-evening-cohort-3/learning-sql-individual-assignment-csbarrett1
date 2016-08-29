@@ -8,3 +8,4 @@ INNER JOIN Invoice
   ON Customer.CustomerId = Invoice.CustomerId
 GROUP BY "Sales Agent"
 ORDER BY "Total Sales" DESC
+LIMIT 1
