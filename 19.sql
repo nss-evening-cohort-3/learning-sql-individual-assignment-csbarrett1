@@ -10,3 +10,4 @@ WHERE Invoice.InvoiceDate
   LIKE "2009%"
 GROUP BY "Sales Agent"
 ORDER BY Invoice.Total DESC
+LIMIT 1
