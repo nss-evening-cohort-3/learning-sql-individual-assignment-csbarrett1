@@ -4,3 +4,5 @@ SELECT
 FROM
   Invoice
 GROUP BY BillingCountry
+ORDER BY "Total Sales" DESC
+LIMIT 1
